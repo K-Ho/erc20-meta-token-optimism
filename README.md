@@ -33,7 +33,7 @@ contract ContractA {
 
 # Dev / running the tests IN THE OVM
 
-1. Install node v11, yarn (npm install -g yarn) and truffle (npm install -g truffle)
+1. `yarn clean`
 2. `yarn install`
 3. `yarn build:ovm`
 4. In `rollup-full-node` package: `yarn server:fullnode-test:debug` 
