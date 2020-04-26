@@ -36,8 +36,8 @@ contract ContractA {
 1. `yarn clean`
 2. `yarn install`
 3. `yarn build:ovm`
-4. In `rollup-full-node` package: `yarn server:fullnode-test:debug` 
-5. `yarn test` - executes test suite
+4. In `rollup-full-node` [package](https://github.com/ethereum-optimism/optimism-monorepo/tree/master/packages/rollup-full-node): `yarn server:fullnode-test:debug` 
+5. `yarn test:ovm` - executes test suite in OVM
 
 # How does it work?
 
